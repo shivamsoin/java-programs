@@ -16,6 +16,7 @@ class armstrong
 			sum=sum+(int)(Math.pow(rem,d));
 			b=b/10;
 		}
+		System.out.println(sum);
 		if(sum==c)
 		{
 			System.out.print("armstrong!!");
